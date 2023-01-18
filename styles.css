@@ -227,4 +227,24 @@ body {
         white-space: nowrap;
         -webkit-overflow-scrolling: touch;
       }
+
+      /* *******************************************  */
+
+     
+
+     .header a{
+        font-weight: bold;
+     }
+     
+
+      #cards{
+        background: var(--green-300);
+        padding: 2rem 0;
+      }
+
+      img{
+        object-fit: cover;
+      }
+
+
     
