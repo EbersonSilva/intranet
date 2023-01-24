@@ -339,11 +339,7 @@ body {
         background: var(--green-500);
         border: none;
         font-weight: bold;
-        transition: all 0.2s;
-        width: 8rem;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        transition: all 0.2s
       }
 
       .btn:hover{
