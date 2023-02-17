@@ -86,13 +86,12 @@ h6 {
 body {
   padding-top: 1rem;
   color: #5a5a5a;
-  
-  
 }
 
 /* Variaveis */
 :root {
   /* Colors  */
+  --light:#DCDCDC;
   --white: #fff;
   --black: #000;
   --gray-300: #5b686a;
@@ -233,14 +232,35 @@ body {
 
      
 
+     
+
      .header a{
-        font-weight: bold;
+      color: var(--green-500);
+      
+     }
+     .header a:hover{
+      color: var(--green-300);
+     }
+
+     .dropdown-item{
+      color: var(--green-500);
      }
      
 
       #cards{
-        background: var(--green-300);
         padding: 2rem 0;
+      }
+      .zoom{
+        max-width: 100%;
+	    -moz-transition: all 1s;
+	    -webkit-transition: all 1s;
+	    transition: all 1s;
+      }
+
+      .zoom:hover{
+        -moz-transform: scale(1.1);
+	    -webkit-transform: scale(1.1);
+	    transform: scale(1.1);
       }
 
       img{
