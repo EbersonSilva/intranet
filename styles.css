@@ -92,8 +92,8 @@ body {
 /* Variaveis */
 :root {
   /* Colors  */
-  --white: #ffffff;
-  --black: #000000;
+  --white: #fff;
+  --black: #000;
   --gray-300: #5b686a;
   --green-100: #c4d6d9;
   --green-200: #7ca4a9;
@@ -274,7 +274,7 @@ body {
       
       .back-to-top:hover {
         color: var(--green-500);
-        background: var(--white-color);
+        background: var(--white);
       }
 
       .back-to-top2 {
@@ -289,6 +289,7 @@ body {
         z-index: 1;
         transition: all ease-in-out 0.2s;
       }
+
 
       .icon-list {
         padding-left: 0;
@@ -345,6 +346,10 @@ body {
       .btn:hover{
         background: var(--green-300);
       }
+
+      /* Ramais  */
+
+     
 
     
 
