@@ -92,6 +92,8 @@ body {
 :root {
   /* Colors  */
   --light:#DCDCDC;
+  --default: #d01f27; /*Cor padrão Março Vermelho*/
+  --defaultHover: #e4746a; /*Cor padrão Março Vermelho*/
   --white: #fff;
   --black: #000;
   --gray-300: #5b686a;
@@ -336,14 +338,14 @@ body {
 
       .icon-list li a {
         text-decoration: none;
-        color: var(--green-500);
+        color: var(--default);
         font-weight: bold;
         text-transform: uppercase;
 
       }
 
       .icon-list li a:hover{
-        color: var(--green-300);
+        color: var(--defaultHover);
       }
 
       .card {
@@ -353,12 +355,12 @@ body {
       }
 
       .table thead{
-        background: var(--green-500); 
+        background: var(--default); 
         color: var(--white);
       }
 
       .btnPrimary {
-        background: var(--green-500);
+        background: var(--default);
         color: var(--white);
         border: none;
         font-weight: bold;
@@ -375,7 +377,7 @@ body {
       }
 
       .btnPrimary:hover{
-        background: var(--green-300);
+        background: var(--defaultHover);
         color: var(--white);
       }
 
