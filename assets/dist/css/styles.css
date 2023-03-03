@@ -1,5 +1,8 @@
 /* stylelint-disable selector-list-comma-newline-after */
 
+
+
+
 .blog-header {
   border-bottom: 1px solid #e5e5e5;
 }
@@ -83,6 +86,12 @@ h6 {
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
 
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 body {
   padding-top: 1rem;
   color: #5a5a5a;
@@ -124,6 +133,11 @@ body {
 .carousel-item {
   height: 32rem;
 }
+
+/* #myCarousel .btnCarousel{
+  background-color: var(--green-500);
+  
+} */
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
@@ -234,7 +248,10 @@ body {
 
      
 
-     
+      .header{
+        background: var(--green-100);
+        
+      }
 
      .header a{
       color: var(--green-500);
@@ -268,6 +285,8 @@ body {
       img{
         object-fit: cover;
       }
+
+  
 
       /*--------------------------------------------------------------
 # Back to top button
