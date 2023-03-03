@@ -23,8 +23,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Playfair Display', Georgia, 'Times New Roman',
-    serif /*rtl:Amiri, Georgia, "Times New Roman", serif*/;
+  font-family: 'Roboto', sans-serif;
 }
 
 .display-4 {
@@ -90,11 +89,13 @@ h6 {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+
 }
 
 body {
   padding-top: 1rem;
   color: #5a5a5a;
+  font-family: 'Roboto', sans-serif;
 }
 
 /* Variaveis */
@@ -400,7 +401,23 @@ body {
         color: var(--white);
       }
 
-      /* Ramais  */
+      /* About  */
+
+      #about .card{
+        background-color: var(--green-500);
+        color: var(--white);
+        border: 0;
+      }
+
+      #about .card-title{
+        margin-bottom: 1rem;
+        font-weight: 700;
+      }
+
+      #about h3{
+        font-weight: 700;
+       
+      }
 
      
 
