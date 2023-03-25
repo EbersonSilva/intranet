@@ -378,6 +378,21 @@ body {
         background: var(--default); 
         color: var(--white);
       }
+     
+     
+
+      .table i{
+        text-decoration: none;
+        color: var(--green-500);
+        font-size: 1.5rem;
+      }
+
+     
+
+      .table  a{
+        text-decoration: none;
+        color: var(--green-500);
+      }
 
       .btnPrimary {
         background: var(--default);
