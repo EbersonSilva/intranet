@@ -387,9 +387,7 @@ body {
         font-size: 1.5rem;
       }
 
-     
-
-      .table  a{
+      .table a{
         text-decoration: none;
         color: var(--green-500);
       }
