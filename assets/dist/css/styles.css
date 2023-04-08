@@ -104,8 +104,8 @@ body {
 :root {
   /* Colors  */
   --light:#DCDCDC;
-  --default: #0b5860; /*Cor padrão Março Vermelho*/
-  --defaultHover: #6c9ca4; /*Cor padrão Março Vermelho*/
+  --default: #0b5860; 
+  --defaultHover: #6c9ca4; 
   --white: #fff;
   --black: #000;
   --gray-300: #5b686a;
