@@ -104,8 +104,8 @@ body {
 :root {
   /* Colors  */
   --light:#DCDCDC;
-  --default: #0b5860; 
-  --defaultHover: #6c9ca4; 
+  --default: #8B4513; 
+  --defaultHover: #D2B48C; 
   --white: #fff;
   --black: #000;
   --gray-300: #5b686a;
@@ -257,15 +257,15 @@ body {
       }
 
      .header a{
-      color: var(--green-500);
+      color: var(--default);
       
      }
      .header a:hover{
-      color: var(--green-300);
+      color: var(--defaultHover);
      }
 
      .dropdown-item{
-      color: var(--green-500);
+      color: var(--default);
      }
      
 
@@ -385,13 +385,13 @@ body {
 
       .table i{
         text-decoration: none;
-        color: var(--green-500);
+        color: var(--default);
         font-size: 1.5rem;
       }
 
       .table a{
         text-decoration: none;
-        color: var(--green-500);
+        color: var(--default);
       }
 
       .btnPrimary {
@@ -419,7 +419,7 @@ body {
       /* About  */
 
       #about .card{
-        background-color: var(--green-500);
+        background-color: var(--default);
         color: var(--white);
         border: 0;
       }
