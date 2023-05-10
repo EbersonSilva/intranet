@@ -1,7 +1,3 @@
-/* stylelint-disable selector-list-comma-newline-after */
-
-
-
 
 .blog-header {
   border-bottom: 1px solid #e5e5e5;
@@ -96,6 +92,17 @@ body {
   padding-top: 1rem;
   color: #5a5a5a;
   font-family: 'Roboto', sans-serif;
+}  
+
+article a {
+color: var(--default);
+font-weight: bold;
+font-family: "Roboto", sans-serif;
+}
+
+ article a:hover{
+  color: var(--default);
+  opacity: 0.6;
 }
 
 
@@ -261,7 +268,8 @@ body {
       
      }
      .header a:hover{
-      color: var(--defaultHover);
+      color: var(--default);
+      opacity: 0.6;
      }
 
      .dropdown-item{
@@ -367,7 +375,8 @@ body {
       }
 
       .icon-list li a:hover{
-        color: var(--defaultHover);
+        color: var(--default);
+        opacity: 0.6;
       }
 
       .card {
@@ -412,8 +421,9 @@ body {
       }
 
       .btnPrimary:hover{
-        background: var(--defaultHover);
+        background: var(--default);
         color: var(--white);
+        opacity: 0.6;
       }
 
       /* About  */
