@@ -98,6 +98,7 @@ article a {
 color: var(--default);
 font-weight: bold;
 font-family: "Roboto", sans-serif;
+text-decoration: none;
 }
 
  article a:hover{
