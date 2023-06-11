@@ -98,6 +98,7 @@ article a {
 color: var(--default);
 font-weight: bold;
 font-family: "Roboto", sans-serif;
+text-decoration: none;
 }
 
  article a:hover{
@@ -111,7 +112,7 @@ font-family: "Roboto", sans-serif;
 :root {
   /* Colors  */
   --light:#DCDCDC;
-  --default: #8B4513; 
+  --default: #e81422; 
   --defaultHover: #D2B48C; 
   --white: #fff;
   --black: #000;
